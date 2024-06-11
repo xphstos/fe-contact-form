@@ -14,7 +14,6 @@ import { RadioInput } from "./Radio";
 import { sleep } from "~/utils/sleep";
 import { useFormContext } from "~/store/store";
 import { TextArea } from "./TextArea";
-import { Fragment } from "solid-js/h/jsx-runtime";
 
 type Query = "general" | "support";
 
@@ -108,10 +107,10 @@ export default function Form() {
           />
         )}
       </Field>
-      <div class="md:col-span-2 ">
-        <label class="block mb-4">
+      <fieldset class="md:col-span-2 ">
+        <legend class="block mb-4">
           Query Type <span class="text-green-medium">*</span>
-        </label>
+        </legend>
         <Field name="query" validate={[required("Please select a query type")]}>
           {(field, props) => (
             <div class="grid md:grid-cols-2 gap-x-4 gap-y-2">
@@ -148,7 +147,7 @@ export default function Form() {
             </div>
           )}
         </Field>
-      </div>
+      </fieldset>
       <Field
         name="message"
         validate={[
