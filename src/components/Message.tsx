@@ -18,6 +18,7 @@ export function Message() {
             >
               <p class="flex items-center font-semibold gap-2">
                 <svg
+                  class="size-5 shrink-0 basis-5"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="21"
@@ -31,7 +32,9 @@ export function Message() {
                 </svg>
                 Message Sent!
               </p>
-              <p>Thanks for completing the form. We'll be in touch soon!</p>
+              <p class="mt-2 text-green-light">
+                Thanks for completing the form. We'll be in touch soon!
+              </p>
             </li>
           </ol>
         </div>
