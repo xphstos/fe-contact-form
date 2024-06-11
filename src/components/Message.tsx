@@ -16,7 +16,7 @@ export function Message() {
               aria-atomic="true"
               class="rounded-lg bg-green-dark p-6 text-white"
             >
-              <p class="flex items-center font-semibold gap-2">
+              <p class="flex items-center font-semibold gap-2 text-lg">
                 <svg
                   class="size-5 shrink-0 basis-5"
                   xmlns="http://www.w3.org/2000/svg"
