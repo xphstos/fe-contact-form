@@ -1,0 +1,29 @@
+{
+  "name": "example-with-tailwindcss",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@modular-forms/solid": "^0.20.0",
+    "@solidjs/router": "^0.13.3",
+    "@solidjs/start": "^1.0.1",
+    "autoprefixer": "^10.4.19",
+    "clsx": "^2.1.1",
+    "postcss": "^8.4.38",
+    "postcss-functions": "^4.0.2",
+    "postcss-logical": "^7.0.1",
+    "postcss-media-minmax": "^5.0.0",
+    "solid-js": "^1.8.17",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3",
+    "valibot": "0.31.0-rc.11",
+    "vinxi": "^0.3.11",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
